@@ -1,6 +1,8 @@
 # lpc176x-stepper-tester
 Simple step and direction and enable based  stepper tester for skr1.3/1.4
 
+NB curently this program needs USB plugged in to startup. Still looking into why (not power rrelated)
+
 Moves all stpper motors back and forward repeatedly.
 Assumes active low stepper driver enable pins.
 Uses fan0 port as a LED to indicate activity.
