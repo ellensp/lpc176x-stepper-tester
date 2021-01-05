@@ -25,8 +25,8 @@ void usb_cdc_init() {
   USB_Connect(TRUE);
   MSC_SD_Init(0);                         // Enable USB SD card access
 
-  while (!USB_Configuration ) {
-    delay(50);
-    usb_cdc_idle();
-  }
+  //while (!USB_Configuration ) {
+  //  delay(50);
+  //  usb_cdc_idle();
+  //}
 }
