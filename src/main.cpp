@@ -9,10 +9,6 @@
 #define SKR1_4
 //////////////////////////////
 
-#define off 0
-#define on 1
-
-
 #define X_STEP_PIN                         P2_02
 #define X_DIR_PIN                          P2_06
 #define X_ENABLE_PIN                       P2_01
