@@ -35,7 +35,7 @@
     #define E1_ENABLE_PIN                      P1_16
 #endif
 
-#define LED_BUILTIN P2_03 //fan on skr 1.4
+#define LED_BUILTIN P2_03 //fan on skr 1.3/1.4
 
 void setup() {
   usb_cdc_init();
