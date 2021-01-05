@@ -70,8 +70,7 @@ void setup() {
   digitalWrite(E1_ENABLE_PIN  , LOW);
 }
 
-void loop () {
-
+void loop(){
   if (millis() %1000 <500)
     digitalWrite(LED_BUILTIN, HIGH);
   else
@@ -83,8 +82,7 @@ void loop () {
     digitalWrite(Z_DIR_PIN    , HIGH);
     digitalWrite(E0_DIR_PIN   , HIGH);
     digitalWrite(E1_DIR_PIN   , HIGH);
-  }
-  else {
+  } else {
     digitalWrite(X_DIR_PIN    , LOW);
     digitalWrite(Y_DIR_PIN    , LOW);
     digitalWrite(Z_DIR_PIN    , LOW);
