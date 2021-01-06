@@ -1,5 +1,5 @@
 # lpc176x-stepper-tester
-Simple step and direction and enable based  stepper tester for BTT SKR V1.3 and 1.4
+Simple, direction and enable based stepper tester for BTT SKR V1.3 and V1.4
 
 Moves all stepper motors back and forward repeatedly.
 Assumes active low stepper driver enable pins.
